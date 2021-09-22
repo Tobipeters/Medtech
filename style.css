@@ -15,23 +15,23 @@ body {
 /* colors */
 
 .text_blue {
-    color: #00ACE2;
+    color: #00ACE2 !important;
 }
 
 .text_purple {
-    color: #B143DD;
+    color: #B143DD !important;
 }
 
 .text_pink {
-    color: #FC2865;
+    color: #FC2865 !important;
 }
 
 .text_green {
-    color: #67D81A;
+    color: #67D81A !important;
 }
 
 .text_orange {
-    color: #FFA513;
+    color: #FFA513 !important;
 }
 
 
@@ -313,7 +313,7 @@ body {
     left: 0;
     top: 0;
     bottom: 0;
-    background-color: rgba(255, 255, 255, .85);
+    background-color: rgba(255, 255, 255, .9);
 }
 
 @media screen and (max-width: 1200px) and (min-width: 768px) {
