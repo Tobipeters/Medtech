@@ -90,6 +90,43 @@ body {
     bottom: 0;
 }
 
+.stripe-container {
+    position: absolute;
+    z-index: 3;
+    top: 0;
+    right: 0;
+    height: 100px;
+    /* width: 300px; */
+}
+
+.stripe-1,
+.stripe-2,
+.stripe-3 {
+    height: 105%;
+    display: inline-block;
+}
+
+.stripe-1,
+.stripe-2 {
+    clip-path: polygon(100% 0%, 57% 48%, 100% 100%, 45% 100%, 0% 50%, 45% 0);
+    width: 50px;
+    margin-right: -.6rem;
+}
+
+.stripe-1 {
+    background: rgba(103, 216, 26, .85);
+}
+
+.stripe-2 {
+    background: rgba(252, 40, 101, .85);
+}
+
+.stripe-3 {
+    background: rgba(0, 172, 226, .85);
+    clip-path: polygon(18% 0%, 100% 0%, 100% 100%, 18% 100%, 0% 50%);
+    width: 110px;
+}
+
 .hero-text {
     /* margin: auto auto 0; */
     position: relative;
@@ -102,7 +139,7 @@ body {
 .hero-text h3 {
     font-size: 2.7em;
     font-weight: 700;
-    line-height: 1.3;
+    line-height: 1.15;
 }
 
 .hero-text h3 span {
@@ -118,15 +155,12 @@ body {
     font-size: 17px;
     font-weight: 600;
     display: list-item;
-    /* height: fit-content !important; */
+    max-height: 34px !important;
 }
 
-
-/* .hero-text .list-group-item::before {
-    content: "\2022";
-    font-size: 26px;
-    margin-right: .5rem;
-} */
+.hero-text .list-group-item::marker {
+    font-size: 22px;
+}
 
 .hero-text .list-group-item:nth-child(1)::marker {
     color: #00ACE2;
@@ -347,6 +381,13 @@ body {
         width: 150px;
         height: 27px;
     }
+    .stripe-container {
+        height: 70px;
+        /* width: 300px; */
+    }
+    .stripe-3 {
+        width: 90px;
+    }
     .hero-text {
         width: 100%;
     }
@@ -354,7 +395,7 @@ body {
         font-size: 1.4em;
     }
     .hero-text .list-group-item {
-        font-size: 12px;
+        font-size: 15px;
         font-weight: 600;
         padding: .25rem .5rem;
     }
