@@ -86,7 +86,8 @@ body {
 }
 
 .header-banner .layer {
-    background-color: rgb(13 15 29 / 76%);
+    background-image: linear-gradient(to right, rgba(10, 13, 29, .98), rgba(10, 13, 29, .7));
+    /* background-color: rgb(13 15 29 / 76%); */
     position: absolute;
     right: 0;
     left: 0;
@@ -386,7 +387,7 @@ body {
         width: 80%;
     }
     .hero-text h3 {
-        font-size: 2.2em;
+        font-size: 2em;
         line-height: 1.3;
     }
     .hero-text .list-group-item {
