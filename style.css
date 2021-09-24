@@ -1,6 +1,8 @@
 body {
+    overflow-x: hidden !important;
+    overflow-y: auto;
     width: 100%;
-    overflow-x: hidden;
+    height: 100%;
     font-family: 'Open Sans', sans-serif !important;
 }
 
@@ -85,15 +87,15 @@ body {
     align-items: center;
 }
 
-.header-banner .layer {
-    background-image: linear-gradient(to right, rgba(10, 13, 29, .98), rgba(10, 13, 29, .7));
-    /* background-color: rgb(13 15 29 / 76%); */
+
+/* .header-banner .layer {
+    background-image: linear-gradient(to right, rgba(10, 13, 29, .9), rgba(10, 13, 29, .2));
     position: absolute;
     right: 0;
     left: 0;
     top: 0;
     bottom: 0;
-}
+} */
 
 .stripe-container {
     position: absolute;
@@ -133,7 +135,9 @@ body {
 }
 
 .hero-text {
-    /* margin: auto auto 0; */
+    background: rgba(10, 10, 10, .7);
+    border-radius: 10px;
+    padding: 1rem 2rem;
     position: relative;
     color: #ffffff;
     width: 65%;
@@ -142,7 +146,7 @@ body {
 }
 
 .hero-text h3 {
-    font-size: 2.7em;
+    font-size: 2.5em;
     font-weight: 700;
     line-height: 1.2;
 }
@@ -405,6 +409,9 @@ body {
 }
 
 @media screen and (max-width:600px) {
+    section {
+        overflow-x: hidden;
+    }
     .logo-img {
         width: 150px;
         height: 27px;
@@ -418,6 +425,7 @@ body {
     }
     .hero-text {
         width: 100%;
+        padding: 1rem;
     }
     .hero-text h3 {
         font-size: 1.4em;
@@ -466,6 +474,10 @@ body {
     }
     .nav-tabs .nav-link {
         padding: .5rem 1rem;
+        font-size: 14px;
+    }
+    .tab-content-holder p,
+    .tab-content-holder .list-group-item {
         font-size: 14px;
     }
     .table thead tr th,
