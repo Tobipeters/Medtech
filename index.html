@@ -23,45 +23,51 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Feather icon -->
     <script src="https://unpkg.com/feather-icons"></script>
+    <!-- jquery cdn -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
 </head>
 
 <body>
     <!-- Navigation section -->
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="./assets/images/MedTech_Logo.png" class="logo-img" alt="Medtech_logo" />
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav align-items-center ms-auto mb-2 mb-lg-0">
-                    <!-- <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li> -->
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#values">Our Values</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#services">Our Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#carebox">
-                            <img src="./assets/images/CareBox_logo.png" alt="carebox_logo" />
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#trainings">Trainings</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact us</a>
-                    </li>
-                </ul>
+    <nav class="navbar py-0 sticky-top navbar-expand-lg navbar-light">
+        <div class="d-block w-100">
+            <div class="container d-flex justify-content-between py-2" id="brand-toggle-holder">
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/images/MedTech_Logo.png" class="logo-img" alt="Medtech_logo" />
+                </a>
             </div>
+            <div class="bg-grey w-100">
+                <div class="container">
+                    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navbar-collapse collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav align-items-center me-auto pb-3 pb-lg-0 mb-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#values">Our Values</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#services">Our Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#carebox">
+                                    <img src="./assets/images/CareBox_logo.png" alt="carebox_logo" />
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#trainings">Trainings</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </nav>
 
@@ -89,8 +95,8 @@
     </header>
 
     <!-- About section -->
-    <section id="about" class="bg-light py-5 px-3">
-        <div class="container" data-aos="fade-up">
+    <section id="about" class="bg-light">
+        <div class="container py-5 px-3" data-aos="fade-up">
             <h3 class="section-title fw-700">About <span>Us</span></h3>
             <div class="section-details">
                 <p class="">
@@ -132,8 +138,8 @@
     </section>
 
     <!-- Values section -->
-    <section id="values" class="py-5 px-3">
-        <div class="container" data-aos="fade-up">
+    <section id="values" class="">
+        <div class="container py-5 px-3" data-aos="fade-up">
             <h3 class="section-title">Our <span class="fw-700">Values </span> </h3>
             <div class="row">
                 <div class="col-lg-3 col-md-6 mb-3 mb-lg-0" data-aos="fade-right">
@@ -205,8 +211,8 @@
     </section>
 
     <!-- Services section -->
-    <section id="services" class="bg-light py-5" data-aos="fade-up">
-        <div class="container">
+    <section id="services" class="bg-light" data-aos="fade-up">
+        <div class="container py-5">
             <h3 class="section-title">Our <span class="fw-700">Services</span></h3>
             <div class="mt-3">
                 <nav>
@@ -428,8 +434,8 @@
     </section>
 
     <!-- Carebox section -->
-    <section id="carebox" class="py-5 px-3" data-aos="fade-up">
-        <div class="container">
+    <section id="carebox" class="">
+        <div class="container py-5 px-3" data-aos="fade-up">
             <img class="section-img" src="./assets/images/CareBox_logo.png" />
             <div class="section-details">
                 <div class="opacity-layer"></div>
@@ -536,8 +542,8 @@
     </section>
 
     <!-- Training section -->
-    <section class="bg-light py-5 px-3" data-aos="fade-up">
-        <div class="container">
+    <section id="trainings" class="bg-light" data-aos="fade-up">
+        <div class="container py-5 px-3">
             <h3 class="section-title fw-700 text_blue">Training</h3>
             <div class="section-details">
                 <p class="">
@@ -547,8 +553,8 @@
     </section>
 
     <!-- Contact Us section -->
-    <section class="bg-black-trans pt-5" data-aos="fade-up">
-        <div class="container px-3">
+    <section id="contact" class="bg-black-trans" data-aos="fade-up">
+        <div class="container px-3  pt-5">
             <h3 class="section-title fw-700">Contact <span>Us</span></h3>
             <div class="row">
                 <div class="section-details col-lg-6 col-md-8">
@@ -592,13 +598,18 @@
     </section>
 
 
+
+    <!-- Boostrap script -->
+    <script src="./assets/bootstrap/js/bootstrap.bundle.js"></script>
+
+    <!-- Custom js script -->
+    <script src="assets/script.js"></script>
+
     <!-- feather icon -->
     <script>
         feather.replace()
     </script>
 
-    <!-- Boostrap script -->
-    <script src="./assets/bootstrap/js/bootstrap.bundle.js"></script>
 
     <!-- Animated text script -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

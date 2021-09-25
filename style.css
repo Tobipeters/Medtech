@@ -17,6 +17,10 @@ body {
     background: #292929;
 }
 
+.bg-grey {
+    background: grey;
+}
+
 
 /* colors */
 
@@ -56,7 +60,8 @@ body {
 }
 
 .navbar-light .navbar-toggler {
-    border-color: transparent !important;
+    background-color: lightgray !important;
+    margin: .25rem 0;
 }
 
 .navbar-light .navbar-toggler:focus {
@@ -70,6 +75,8 @@ body {
 
 .nav-link {
     font-weight: 500;
+    padding: .5rem 1rem !important;
+    color: #ffffff !important;
 }
 
 .nav-link img {
