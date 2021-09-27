@@ -18,7 +18,11 @@ body {
 }
 
 .bg-grey {
-    background: grey;
+    background: #545454;
+}
+
+.bg-blue {
+    background: #00ACE2;
 }
 
 
@@ -94,15 +98,15 @@ body {
     align-items: center;
 }
 
-
-/* .header-banner .layer {
-    background-image: linear-gradient(to right, rgba(10, 13, 29, .9), rgba(10, 13, 29, .2));
+.header-banner .layer {
+    /* background: rgba(80, 96, 123, .8); */
+    /* background-image: linear-gradient(to right, rgba(10, 13, 29, .9), rgba(10, 13, 29, .2)); */
     position: absolute;
     right: 0;
     left: 0;
     top: 0;
     bottom: 0;
-} */
+}
 
 .stripe-container {
     position: absolute;
@@ -142,7 +146,7 @@ body {
 }
 
 .hero-text {
-    background: rgba(10, 10, 10, .7);
+    background: rgba(80, 96, 123, .8);
     border-radius: 10px;
     padding: 1rem 2rem;
     position: relative;
@@ -168,7 +172,7 @@ body {
 
 .hero-text .list-group-item {
     color: #ffffff;
-    font-size: 17px;
+    font-size: 19px;
     font-weight: 600;
     display: list-item;
     max-height: 34px !important;
@@ -389,6 +393,11 @@ body {
     border-radius: 0;
 }
 
+.contact-details .feather {
+    width: 1.5rem;
+    height: 1.5rem
+}
+
 @media screen and (max-width: 1200px) and (min-width: 768px) {
     .logo-img {
         /* width: 100%; */
@@ -412,6 +421,13 @@ body {
     .value-card .icon-4 {
         width: 2.7rem;
         height: 2.7rem;
+    }
+    .contact-details .feather {
+        width: 1.2rem;
+        height: 1.2rem
+    }
+    .contact-details span {
+        font-size: 15px;
     }
 }
 
@@ -495,5 +511,12 @@ body {
     .table tbody tr td {
         font-size: 12px;
         padding: .25rem .4rem;
+    }
+    .contact-details .feather {
+        width: 1rem;
+        height: 1rem
+    }
+    .contact-details span {
+        font-size: 14px;
     }
 }
