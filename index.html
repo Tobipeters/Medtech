@@ -31,11 +31,12 @@
 
 <body>
     <!-- Navigation section -->
-    <nav class="navbar py-0 sticky-top navbar-expand-lg navbar-light">
+    <nav class="navbar py-0 sticky-top navbar-expand-lg navbar-light shadow">
         <div class="d-block w-100">
             <div class="container d-flex justify-content-between py-2" id="brand-toggle-holder">
                 <a class="navbar-brand" href="#">
                     <img src="./assets/images/MedTech_Logo.png" class="logo-img" alt="Medtech_logo" />
+                    <!-- <i class="motto ms-2">...transforming your business</i> -->
                 </a>
             </div>
             <div class="bg-grey w-100">
@@ -63,6 +64,9 @@
                                 <a class="nav-link" href="#trainings">Trainings</a>
                             </li>
                             <li class="nav-item">
+                                <a class="nav-link" href="#articles">Articles</a>
+                            </li>
+                            <li class="nav-item">
                                 <a class="nav-link" href="#contact">Contact us</a>
                             </li>
                         </ul>
@@ -82,8 +86,11 @@
             <div class="stripe-3"></div>
         </div>
         <div class="container">
+            <div class="header-logo-container">
+                <img src="./assets/images/MedTech_Logo_complete.png" alt="medtech_logo" class="" />
+                <i class="motto ms-2 text-light">... transforming your business</i>
+            </div>
             <div class="hero-text" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
-                <!-- <img src="./assets/images/MedTech_Logo_complete.png" width="250" height="50" /> -->
                 <h3 class="mb-3">LET’S <span>TRANSFORM</span> YOUR <span>BUSINESS</span> WITH CUTTING-EDGE: </h3>
                 <ul class="list-group ms-4">
                     <li class="list-group-item bg-transparent border-0 ps-0 py-1">Strategy</li>
@@ -144,7 +151,7 @@
         <div class="container py-5 px-3" data-aos="fade-up">
             <h3 class="section-title">Our <span class="fw-700">Values </span> </h3>
             <div class="row">
-                <div class="col-lg-3 col-md-6 mb-3 mb-lg-0" data-aos="fade-right">
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-3 mb-lg-0" data-aos="fade-right">
                     <div class="card p-3 value-card">
                         <i class="icon-1" data-feather="loader"></i>
                         <div class="mt-4">
@@ -160,7 +167,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 mb-3 mb-lg-0" data-aos="fade-right">
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-3 mb-lg-0" data-aos="fade-right">
                     <div class="card p-3 value-card">
                         <i class="icon-2" data-feather="check-circle"></i>
                         <!-- <i class="fa fa-users icon-2"></i> -->
@@ -177,7 +184,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 mb-3 mb-lg-0" data-aos="fade-left">
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-3 mb-lg-0" data-aos="fade-left">
                     <div class="card p-3 value-card">
                         <i class="icon-3" data-feather="shield"></i>
                         <div class="mt-4">
@@ -193,7 +200,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 mb-3 mb-lg-0" data-aos="fade-left">
+                <div class="col-xl-3 col-lg-4 col-md-6 mb-3 mb-lg-0" data-aos="fade-left">
                     <div class="card p-3 value-card">
                         <i class="icon-4" data-feather="award"></i>
                         <div class="mt-4">
@@ -549,16 +556,84 @@
         <div class="container py-5 px-3">
             <h3 class="section-title fw-700 text_blue">Training</h3>
             <div class="row">
-                <div class="col-lg-5">
-                    <div class="card p-3">
-                        <div class="">
-                            <img src="./assets/images/" alt="medtech" />
-                            <span class="ms-2">Presents:</span>
+                <div class="col-lg-8 col-md-7">
+                    <div class="card p-3 h-100">
+                        <div class="d-flex justify-content-center align-items-center h-100">
+                            <span class="ms-2">Training banner </span>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3"></div>
-                <div class="col-lg-4"></div>
+                <div class="col-lg-4 col-md-5">
+                    <div class="card video-card mb-3">
+                        <video class="w-100 h-100 vid" controls>
+                            <source src="https://www.bigbuckbunny.org/" type="video/mp4">
+                            <source src="https://www.bigbuckbunny.org/" type="video/ogg">
+                            Your browser does not support HTML video.
+                        </video>
+                    </div>
+                    <div class="card video-card">
+                        <video class="w-100 h-100 vid" controls>
+                            <source src="https://www.bigbuckbunny.org/" type="video/mp4">
+                            <source src="https://www.bigbuckbunny.org/" type="video/ogg">
+                            Your browser does not support HTML video.
+                        </video>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Article section -->
+    <section id="articles" class="" data-aos="fade-up">
+        <div class="container py-5 px-3">
+            <h3 class="section-title fw-700 text_blue">Articles</h3>
+            <div class="row">
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="card article-card mb-3 shadow-sm">
+                        <img src="https://knect365.imgix.net/article/images/cacheable/ad15ed69-08a5-4eeb-acf1-2908edba8502-featured-b1a67bc22f99af86f9758518eb2eaa2a.jpg?auto=compress&fit=max&w=808&dpr=1" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-600">How To best maintain your medical facility</h5>
+                            <p class="card-text">
+                                At vero eos et accusamus et iusto odio dignissimos
+                            </p>
+                            <a href="#" class="">
+                                Read more
+                                <i class="ms-2 text_blue" data-feather="arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="card article-card mb-3 shadow-sm">
+                        <img src="https://knect365.imgix.net/article/images/cacheable/ad15ed69-08a5-4eeb-acf1-2908edba8502-featured-b1a67bc22f99af86f9758518eb2eaa2a.jpg?auto=compress&fit=max&w=808&dpr=1" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-600">How To best maintain your medical facility</h5>
+                            <p class="card-text">
+                                At vero eos et accusamus et iusto odio dignissimos
+                            </p>
+                            <a href="#" class="">
+                                Read more
+                                <i class="ms-2 text_blue" data-feather="arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6">
+                    <div class="card article-card mb-3 shadow-sm">
+                        <img src="https://knect365.imgix.net/article/images/cacheable/ad15ed69-08a5-4eeb-acf1-2908edba8502-featured-b1a67bc22f99af86f9758518eb2eaa2a.jpg?auto=compress&fit=max&w=808&dpr=1" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title fw-600">How To best maintain your medical facility</h5>
+                            <p class="card-text">
+                                At vero eos et accusamus et iusto odio dignissimos
+                            </p>
+                            <a href="#" class="">
+                                Read more
+                                <i class="ms-2 text_blue" data-feather="arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
 
         </div>

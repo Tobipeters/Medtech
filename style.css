@@ -73,8 +73,8 @@ body {
 }
 
 .logo-img {
-    /* width: 100%; */
-    height: 35px;
+    /* width: 250px; */
+    height: 40px;
 }
 
 .nav-link {
@@ -108,12 +108,27 @@ body {
     bottom: 0;
 }
 
+.header-logo-container {
+    position: absolute;
+    top: 0px;
+}
+
+.header-logo-container img {
+    width: 290px;
+}
+
+.motto {
+    font-size: 20px;
+    display: block;
+    margin-right: auto;
+}
+
 .stripe-container {
     position: absolute;
     z-index: 3;
     top: 0;
     right: 0;
-    height: 100px;
+    height: 90px;
     /* width: 300px; */
 }
 
@@ -146,7 +161,7 @@ body {
 }
 
 .hero-text {
-    background: rgba(80, 96, 123, .8);
+    background: rgba(51, 76, 116, .9);
     border-radius: 10px;
     padding: 1rem 2rem;
     position: relative;
@@ -389,6 +404,32 @@ body {
     padding: .5rem 2rem !important;
 }
 
+.video-card {
+    width: 100%;
+    height: 250px;
+}
+
+.video-card .vid,
+.video-card {
+    border-radius: 5px !important;
+}
+
+.article-card {
+    border-radius: 15px !important;
+}
+
+.article-card img {
+    border-radius: 15px 15px 0 0;
+}
+
+.article-card .card-title {
+    font-size: 19px;
+}
+
+.article-card .card-body {
+    font-size: 15px;
+}
+
 .contact-form .form-control {
     border-radius: 0;
 }
@@ -398,10 +439,22 @@ body {
     height: 1.5rem
 }
 
+@media screen and (min-width:1800px) {
+    .header-banner {
+        height: 70vh;
+    }
+}
+
 @media screen and (max-width: 1200px) and (min-width: 768px) {
     .logo-img {
         /* width: 100%; */
         height: 32px;
+    }
+    .stripe-container {
+        height: 80px;
+    }
+    .header-logo-container img {
+        width: 300px;
     }
     .hero-text {
         width: 80%;
@@ -422,6 +475,12 @@ body {
         width: 2.7rem;
         height: 2.7rem;
     }
+    .article-card .card-title {
+        font-size: 18px;
+    }
+    .article-card .card-body {
+        font-size: 15px;
+    }
     .contact-details .feather {
         width: 1.2rem;
         height: 1.2rem
@@ -439,12 +498,22 @@ body {
         width: 150px;
         height: 27px;
     }
+    .header-logo-container img {
+        width: 200px;
+    }
+    .motto {
+        font-size: 16px;
+    }
     .stripe-container {
         height: 70px;
         /* width: 300px; */
     }
+    .stripe-1,
+    .stripe-2 {
+        width: 40px;
+    }
     .stripe-3 {
-        width: 90px;
+        width: 80px;
     }
     .hero-text {
         width: 100%;
@@ -511,6 +580,12 @@ body {
     .table tbody tr td {
         font-size: 12px;
         padding: .25rem .4rem;
+    }
+    .article-card .card-title {
+        font-size: 16px;
+    }
+    .article-card .card-body {
+        font-size: 14px;
     }
     .contact-details .feather {
         width: 1rem;
