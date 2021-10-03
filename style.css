@@ -128,7 +128,7 @@ body {
     z-index: 3;
     top: 0;
     right: 0;
-    height: 90px;
+    height: 63px;
     /* width: 300px; */
 }
 
@@ -461,7 +461,7 @@ body {
         height: 32px;
     }
     .stripe-container {
-        height: 80px;
+        height: 57px;
     }
     .header-logo-container img {
         width: 300px;
@@ -519,7 +519,7 @@ body {
         font-weight: 500;
     }
     .stripe-container {
-        height: 50px;
+        height: 54px;
         /* width: 300px; */
     }
     .stripe-1,
