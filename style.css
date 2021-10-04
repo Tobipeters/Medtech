@@ -515,6 +515,7 @@ section {
 
 @media screen and (max-width:720px) {
     section {
+        scroll-margin-top: 6rem;
         overflow-x: hidden;
     }
     .logo-img {
