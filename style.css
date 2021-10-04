@@ -115,7 +115,7 @@ section {
 
 .header-logo-container {
     position: absolute;
-    top: 0px;
+    top: 10px;
 }
 
 .header-logo-container img {
@@ -515,7 +515,7 @@ section {
 
 @media screen and (max-width:720px) {
     section {
-        scroll-margin-top: 6rem;
+        scroll-margin-top: 10rem;
         overflow-x: hidden;
     }
     .logo-img {
@@ -526,7 +526,7 @@ section {
         height: 50px;
     }
     .header-logo-container img {
-        width: 150px;
+        width: 170px;
     }
     .motto {
         font-size: 12px;
